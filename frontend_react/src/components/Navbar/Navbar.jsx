@@ -6,8 +6,7 @@ import { motion } from 'framer-motion';
 
 const Navbar = () => {
     const [toggle, setToggle] = useState(false);
-
-  return (
+    return (
     <nav className="app__navbar">
         <div className="app__navbar-logo">
             <img src={images.logo} alt="logo" />
@@ -38,7 +37,7 @@ const Navbar = () => {
             )}
         </div>
     </nav>
-  )
+    )
 }
 
 export default Navbar

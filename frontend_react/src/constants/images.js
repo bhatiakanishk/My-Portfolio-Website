@@ -2,6 +2,7 @@ import email from '../assets/email.png';
 import mobile from '../assets/mobile.png';
 import api from '../assets/api.png';
 import atom from '../assets/atom.png';
+import aws from '../assets/aws.png'
 import cpp from '../assets/cpp.png';
 import css from '../assets/css.png';
 import figma from '../assets/figma.png';
@@ -16,8 +17,10 @@ import python from '../assets/python.png';
 import react from '../assets/react.png';
 import redux from '../assets/redux.png';
 import sass from '../assets/sass.png';
+import swift from '../assets/swift.png'
 import typescript from '../assets/typescript.png';
 import vue from '../assets/vue.png';
+import xcode from '../assets/xcode.jpg'
 
 import about01 from '../assets/about01.png';
 import about02 from '../assets/about02.png';
@@ -38,6 +41,7 @@ import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 
 export default {
+  aws,
   email,
   mobile,
   atom,
@@ -57,6 +61,7 @@ export default {
   react,
   redux,
   sass,
+  swift,
   typescript,
   vue,
   about01,
@@ -73,4 +78,5 @@ export default {
   nb,
   skype,
   spotify,
+  xcode
 };
